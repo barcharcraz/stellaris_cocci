@@ -1,0 +1,7 @@
+[package]
+name = "stellaris_cocci"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jomini = {git = "https://github.com/rakaly/jomini", branch = "master"}
