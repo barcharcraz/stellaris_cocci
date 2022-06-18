@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 jomini = {git = "https://github.com/rakaly/jomini", branch = "master"}
+clap = {version = "3", optional = true}
+quick-xml = { version = "*", optional = true, features = ["serialize"] }
+serde = {version = "*", features = ["derive"]}
